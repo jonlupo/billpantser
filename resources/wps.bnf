@@ -1,0 +1,6 @@
+<line> = group | line space group
+group = id | id space day | id space day space year 
+id = #"[a-z]+:+\d\d\d"
+year = #"\d\d\d\d"
+day = #"\d" | #"\d\d"
+<space> = <' '>
